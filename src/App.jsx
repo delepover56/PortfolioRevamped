@@ -1,16 +1,19 @@
-import Nav from "./nav";
-import BackgroundVideo from "./backgroundVideo";
-import Header from "./header";
-function App() {
+import Nav from "./components/nav";
+import BackgroundVideo from "./components/backgroundVideo";
+import Header from "./components/header";
+import MyInfo from "./components/myInfo";
+
+const App = () => {
   return (
-    <>
-      <div className="w-full h-full fixed border-1 border-amber-200">
-        <BackgroundVideo />
-        <Header />
+    <div className="w-full h-full fixed">
+      <BackgroundVideo />
+      <Header />
+      <div className="flex w-full h-full justify-start items-start">
         <Nav />
+        <MyInfo />
       </div>
-    </>
+    </div>
   );
-}
+};
 
 export default App;
