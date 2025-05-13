@@ -1,5 +1,5 @@
 const Header = () => (
-  <div className="flex items-center justify-center w-full py-[20px]">
+  <div className="flex items-center justify-center w-full py-[20px] sticky top-[0]">
     <a
       href="index.html"
       className="flex justify-center items-center gap-[10px] text-[3.5vw] font-extrabold text-[#009b39] group"

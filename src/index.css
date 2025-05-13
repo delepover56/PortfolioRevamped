@@ -1,5 +1,190 @@
 @import "tailwindcss";
 
+/* Fonts */
+
+/* Lilita One */
+@font-face {
+  font-family: "lilita-one";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/src/assets/Fonts/Lilita_One/LilitaOne-Regular.ttf);
+}
+
+.lilita-one {
+  font-family: "lilita-one";
+}
+
+/* Merienda */
+@font-face {
+  font-family: "Merienda";
+  font-style: normal;
+  src: url(/src/assets/Fonts/Merienda/Merienda-VariableFont_wght.ttf);
+}
+
+.merienda {
+  font-family: "Merienda";
+}
+
+/* Poppins */
+@font-face {
+  font-family: "Poppins-thin";
+  font-style: normal;
+  font-weight: 100;
+  src: url(/src/assets/Fonts/Poppins/Poppins-Thin.ttf);
+}
+.poppins-thin {
+  font-family: "Poppins-thin";
+}
+
+@font-face {
+  font-family: "Poppins-extralight";
+  font-style: normal;
+  font-weight: 200;
+  src: url(/src/assets/Fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+.poppins-extralight {
+  font-family: "Poppins-extralight";
+}
+
+@font-face {
+  font-family: "Poppins-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(/src/assets/Fonts/Poppins/Poppins-Light.ttf);
+}
+.poppins-light {
+  font-family: "Poppins-light";
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/src/assets/Fonts/Poppins/Poppins-Regular.ttf);
+}
+.poppins {
+  font-family: "Poppins";
+}
+@font-face {
+  font-family: "Poppins-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(/src/assets/Fonts/Poppins/Poppins-Medium.ttf);
+}
+.poppins-medium {
+  font-family: "Poppins-medium";
+}
+@font-face {
+  font-family: "Poppins-semibold";
+  font-style: normal;
+  font-weight: 600;
+  src: url(/src/assets/Fonts/Poppins/Poppins-SemiBold.ttf);
+}
+.poppins-semibold {
+  font-family: "Poppins-semibold";
+}
+@font-face {
+  font-family: "Poppins-bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/src/assets/Fonts/Poppins/Poppins-Bold.ttf);
+}
+.poppins-bold {
+  font-family: "Poppins-bold";
+}
+@font-face {
+  font-family: "Poppins-extrabold";
+  font-style: normal;
+  font-weight: 800;
+  src: url(/src/assets/Fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+.poppins-extrabold {
+  font-family: "Poppins-extrabold";
+}
+@font-face {
+  font-family: "Poppins-black";
+  font-style: normal;
+  font-weight: 900;
+  src: url(/src/assets/Fonts/Poppins/Poppins-Black.ttf);
+}
+.poppins-black {
+  font-family: "Poppins-black";
+}
+
+/* Roboto Slab */
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  src: url(/src/assets/Fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+.roboto-slab {
+  font-family: "Roboto Slab";
+}
+
+/* Roboto */
+@font-face {
+  font-family: "Roboto-thin";
+  font-style: normal;
+  font-weight: 100;
+  src: url(/src/assets/Fonts/Roboto/Roboto-Thin.ttf);
+}
+.roboto-thin {
+  font-family: "Roboto-thin";
+}
+
+@font-face {
+  font-family: "Roboto-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(/src/assets/Fonts/Roboto/Roboto-Light.ttf);
+}
+.roboto-light {
+  font-family: "Roboto-light";
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/src/assets/Fonts/Roboto/Roboto-Regular.ttf);
+}
+.roboto {
+  font-family: "Roboto";
+}
+
+@font-face {
+  font-family: "Roboto-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(/src/assets/Fonts/Roboto/Roboto-Medium.ttf);
+}
+.roboto-medium {
+  font-family: "Roboto-medium";
+}
+
+@font-face {
+  font-family: "Roboto-bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/src/assets/Fonts/Roboto/Roboto-Bold.ttf);
+}
+.roboto-bold {
+  font-family: "Roboto-bold";
+}
+
+@font-face {
+  font-family: "Roboto-black";
+  font-style: normal;
+  font-weight: 900;
+  src: url(/src/assets/Fonts/Roboto/Roboto-Black.ttf);
+}
+.roboto-black {
+  font-family: "Roboto-black";
+}
+
+/* Animations */
+
+/* Wave */
 @keyframes waveAnimation {
   0%,
   100% {
@@ -8,4 +193,112 @@
   50% {
     transform: translateY(-10px);
   }
+}
+
+/* Social Links Styling */
+
+.instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  transform: translate(0, -5px) rotate(10deg);
+}
+.instagram:active {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: none;
+  transform: scale(0.9);
+}
+
+.github:hover {
+  background: radial-gradient(ellipse at center, #000000, #020617, #1e293b);
+  transform: translate(0, -5px) rotate(10deg);
+}
+.github:active {
+  background: radial-gradient(ellipse at center, #000000, #020617, #1e293b);
+  box-shadow: none;
+  transform: scale(0.9);
+}
+
+.linkedIn:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #0077b5 0%,
+    #0077b5 5%,
+    #0096c7 45%,
+    #00b4d8 60%,
+    #1da1f2 90%
+  );
+  transform: translate(0, -5px) rotate(10deg);
+}
+.linkedIn:active {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #0077b5 0%,
+    #0077b5 5%,
+    #0096c7 45%,
+    #00b4d8 60%,
+    #1da1f2 90%
+  );
+  box-shadow: none;
+  transform: scale(0.9);
+}
+
+.discord:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #7289da 0%,
+    #7289da 5%,
+    #3a71c1 45%,
+    #2e86de 60%,
+    #1e90ff 90%
+  );
+  transform: translate(0, -5px) rotate(10deg);
+}
+.discord:active {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #7289da 0%,
+    #7289da 5%,
+    #3a71c1 45%,
+    #2e86de 60%,
+    #1e90ff 90%
+  );
+  box-shadow: none;
+  transform: scale(0.9);
+}
+
+.whatsapp:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #25d366 0%,
+    #25d366 5%,
+    #128c7e 45%,
+    #075e54 60%,
+    #128c7e 90%
+  );
+  transform: translate(0, -5px) rotate(10deg);
+}
+.whatsapp:active {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #25d366 0%,
+    #25d366 5%,
+    #128c7e 45%,
+    #075e54 60%,
+    #128c7e 90%
+  );
+  box-shadow: none;
+  transform: scale(0.9);
 }

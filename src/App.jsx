@@ -5,13 +5,11 @@ import MyInfo from "./components/myInfo";
 
 const App = () => {
   return (
-    <div className="w-full h-full fixed">
-      <BackgroundVideo />
-      <Header />
-      <div className="flex w-full h-full justify-start items-start">
-        <Nav />
-        <MyInfo />
-      </div>
+    <div className="w-full min-h-screen relative">
+      <BackgroundVideo className="absolute top-0 left-0 w-full h-full" />
+      <Header /> {/* Header stays sticky */}
+      <Nav />
+      <MyInfo />
     </div>
   );
 };

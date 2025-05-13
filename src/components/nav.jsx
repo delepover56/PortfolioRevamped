@@ -4,30 +4,30 @@ import { Rocket } from "../assets/icons/Rocket";
 import { FileStack } from "../assets/icons/FileStack";
 
 const Nav = () => (
-  <div className="w-[max-content] h-full left-[1%] sticky flex items-center justify-center">
-    <ul className="flex flex-col justify-center items-center gap-4 mb-[150px] ">
-      <li className="relative flex items-center justify-center bg-gradient-to-br from-[#009b39] to-[#0d4221] rounded-md backdrop-filter backdrop-blur-md group h-[50px] w-[50px]">
+  <div className="w-[max-content] h-full left-[1%] fixed flex items-center justify-center top-[10]">
+    <ul className="flex flex-col justify-center items-center gap-4 mb-[150px]">
+      <li className="relative flex items-center justify-center bg-gradient-to-br from-[#009b39] to-[#0d4221] rounded-md backdrop-filter backdrop-blur-md group h-[50px] w-[50px] transition-all duration-[0.3s] hover:scale-[1.07] active:duration-[0.2s] hover:shadow-[2px_2px_5px_0px_#00ff5e] active:scale-[0.95] y">
         <User />
         <span className="absolute left-[60px] h-full w-[100px] whitespace-nowrap flex items-center justify-center text-white px-3 rounded-md bg-gradient-to-br from-[#009b39] to-[#0d4221] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300">
           About me
         </span>
       </li>
 
-      <li className="relative flex items-center justify-center bg-gradient-to-br from-[#009b39] to-[#0d4221] rounded-md backdrop-filter backdrop-blur-md group h-[50px] w-[50px]">
+      <li className="relative flex items-center justify-center bg-gradient-to-br from-[#009b39] to-[#0d4221] rounded-md backdrop-filter backdrop-blur-md group h-[50px] w-[50px] transition-all duration-[0.3s] hover:scale-[1.07] active:duration-[0.2s] hover:shadow-[2px_2px_5px_0px_#00ff5e] active:scale-[0.95]">
         <FileStack />
         <span className="absolute left-[60px] h-full w-[100px] whitespace-nowrap flex items-center justify-center text-white px-3 rounded-md bg-gradient-to-br from-[#009b39] to-[#0d4221] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300">
           My Resume
         </span>
       </li>
 
-      <li className="relative flex items-center justify-center bg-gradient-to-br from-[#009b39] to-[#0d4221] rounded-md backdrop-filter backdrop-blur-md group h-[50px] w-[50px]">
+      <li className="relative flex items-center justify-center bg-gradient-to-br from-[#009b39] to-[#0d4221] rounded-md backdrop-filter backdrop-blur-md group h-[50px] w-[50px] transition-all duration-[0.3s] hover:scale-[1.07] active:duration-[0.2s] hover:shadow-[2px_2px_5px_0px_#00ff5e] active:scale-[0.95]">
         <Atom />
         <span className="absolute left-[60px] h-full w-[100px] whitespace-nowrap flex items-center justify-center text-white px-3 rounded-md bg-gradient-to-br from-[#009b39] to-[#0d4221] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300">
           My Work
         </span>
       </li>
 
-      <li className="relative flex items-center justify-center bg-gradient-to-br from-[#009b39] to-[#0d4221] rounded-md backdrop-filter backdrop-blur-md group h-[50px] w-[50px]">
+      <li className="relative flex items-center justify-center bg-gradient-to-br from-[#009b39] to-[#0d4221] rounded-md backdrop-filter backdrop-blur-md group h-[50px] w-[50px] transition-all duration-[0.3s] hover:scale-[1.07] active:duration-[0.2s] hover:shadow-[2px_2px_5px_0px_#00ff5e] active:scale-[0.95]">
         <Rocket />
         <span className="absolute left-[60px] h-full w-[100px] whitespace-nowrap flex items-center justify-center text-white px-3 rounded-md bg-gradient-to-br from-[#009b39] to-[#0d4221] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300">
           Hire Me

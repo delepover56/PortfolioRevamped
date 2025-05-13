@@ -12,8 +12,8 @@ interface FileStackProps extends React.SVGAttributes<SVGSVGElement> {
 
 const pathVariants: Variants = {
   normal: {
-    x: 0,
-    y: 0,
+    x: -4,
+    y: 4,
     transition: {
       type: "spring",
       stiffness: 300,
@@ -21,8 +21,8 @@ const pathVariants: Variants = {
     },
   },
   animate: {
-    x: -4,
-    y: 4,
+    x: 0,
+    y: 0,
     transition: {
       type: "spring",
       stiffness: 300,
@@ -33,8 +33,8 @@ const pathVariants: Variants = {
 
 const bottomPathVariants: Variants = {
   normal: {
-    x: 0,
-    y: 0,
+    x: 4,
+    y: -4,
     transition: {
       type: "spring",
       stiffness: 300,
@@ -42,8 +42,8 @@ const bottomPathVariants: Variants = {
     },
   },
   animate: {
-    x: 4,
-    y: -4,
+    x: 0,
+    y: 0,
     transition: {
       type: "spring",
       stiffness: 300,
@@ -86,7 +86,7 @@ const FileStack = ({
         strokeLinejoin="round"
         {...props}
       >
-        <motion.g variants={pathVariants} animate={controls}>
+        <motion.g variants={pathVariants} initial="normal" animate={controls}>
           <path d="M21 7h-3a2 2 0 0 1-2-2V2" />
           <path d="M21 6v6.5c0 .8-.7 1.5-1.5 1.5h-7c-.8 0-1.5-.7-1.5-1.5v-9c0-.8.7-1.5 1.5-1.5H17Z" />
         </motion.g>
@@ -94,6 +94,7 @@ const FileStack = ({
         <motion.path
           d="M3 12v8.8c0 .3.2.6.4.8.2.2.5.4.8.4H11"
           variants={bottomPathVariants}
+          initial="normal"
           animate={controls}
         />
       </svg>
