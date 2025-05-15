@@ -1,6 +1,6 @@
 const MyInfo = () => {
   return (
-    <div className="ml-[14%] h-full w-[30%] py-[3%] gap-[8px] flex flex-col items-center justify-start sticky top-[10%] bg-[#ffffff2d] rounded-md backdrop-filter backdrop-blur-md group border border-[#80808050]">
+    <div className="h-full w-[30%] py-[3%] gap-[8px] flex flex-col items-center justify-start sticky top-[10%] bg-[#ffffff2d] rounded-md backdrop-filter backdrop-blur-md group border border-[#80808050]">
       <img
         src="/src/assets/Images/MyAvatar-With-Background-NewGlasses.webp"
         alt="MyAvatar"
