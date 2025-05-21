@@ -1,6 +1,6 @@
 const MyInfo = () => {
   return (
-    <div className="h-full w-[30%] py-[3%] gap-[8px] flex flex-col items-center justify-start sticky top-[10%] bg-[#ffffff2d] rounded-md backdrop-filter backdrop-blur-md group border border-[#80808050]">
+    <aside className="w-[100%] py-[3%] gap-[8px] sticky top-[5%] flex flex-col items-center justify-start bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
       <img
         src="/src/assets/Images/MyAvatar-With-Background-NewGlasses.webp"
         alt="MyAvatar"
@@ -16,10 +16,10 @@ const MyInfo = () => {
       <div className="socialLinks flex gap-4 mt-4">
         {/* Instagram */}
         <a
-          href="https://www.instagram.com/t.a.h.a_.18/"
+          href="https://www.instagram.com/johan.liebert.53/"
           target="_blank"
           rel="noopener noreferrer"
-          className="instagram flex justify-center items-center bg-gradient-to-br from-pink-800 via-pink-500 to-purple-400 w-[40px] h-[40px] rounded-md transition-all duration-[0.3s] hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
+          className="instagram flex justify-center items-center bg-gradient-to-br from-pink-800 via-pink-500 to-purple-400 w-[35px] h-[35px] rounded-md transition-all duration-[0.3s] hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -38,13 +38,13 @@ const MyInfo = () => {
           href="https://github.com/delepover56"
           target="_blank"
           rel="noopener noreferrer"
-          className="github flex justify-center items-center bg-gradient-to-br from-slate-950 via-slate-800 to-slate-600 w-[40px] h-[40px] rounded-md transition-all duration-300 hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
+          className="github flex justify-center items-center bg-gradient-to-br from-slate-950 via-slate-800 to-slate-600 w-[35px] h-[35px] rounded-md transition-all duration-300 hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             fill="white"
           >
             <path d="M12 0C5.373 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.385.6.113.82-.26.82-.577v-2.168c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73 1.204.084 1.837 1.236 1.837 1.236 1.07 1.832 2.809 1.302 3.495.995.108-.774.418-1.302.76-1.602-2.665-.305-5.467-1.333-5.467-5.932 0-1.31.468-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.007-.322 3.3 1.231a11.49 11.49 0 0 1 3.005-.404c1.02.005 2.046.138 3.005.404 2.29-1.553 3.295-1.231 3.295-1.231.656 1.653.244 2.873.12 3.176.77.84 1.232 1.91 1.232 3.22 0 4.609-2.807 5.624-5.479 5.92.43.372.814 1.1.814 2.216v3.285c0 .32.216.694.824.577C20.565 21.796 24 17.303 24 12 24 5.373 18.627 0 12 0z" />
@@ -55,7 +55,7 @@ const MyInfo = () => {
           href="https://www.linkedin.com/in/taha-khan03/"
           target="_blank"
           rel="noopener noreferrer"
-          className="linkedIn flex justify-center items-center bg-gradient-to-br from-blue-900 via-blue-500 to-cyan-400 w-[40px] h-[40px] rounded-md transition-all duration-300 hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
+          className="linkedIn flex justify-center items-center bg-gradient-to-br from-blue-900 via-blue-500 to-cyan-400 w-[35px] h-[35px] rounded-md transition-all duration-300 hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ const MyInfo = () => {
           href="https://discord.gg/69gKkxQKfn"
           target="_blank"
           rel="noopener noreferrer"
-          className="discord flex justify-center items-center bg-gradient-to-br from-blue-950 via-blue-700 to-blue-400 w-[40px] h-[40px] rounded-md transition-all duration-300 hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
+          className="discord flex justify-center items-center bg-gradient-to-br from-blue-950 via-blue-700 to-blue-400 w-[35px] h-[35px] rounded-md transition-all duration-300 hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -87,10 +87,10 @@ const MyInfo = () => {
         </a>
         {/* Whatsapp */}
         <a
-          href="https://wa.me/3191327495"
+          href="https://wa.me/3192924947"
           target="_blank"
           rel="noopener noreferrer"
-          className="whatsapp flex justify-center items-center bg-gradient-to-br from-green-500 via-green-400 to-lime-300 w-[40px] h-[40px] rounded-md transition-all duration-300 hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
+          className="whatsapp flex justify-center items-center bg-gradient-to-br from-green-500 via-green-400 to-lime-300 w-[35px] h-[35px] rounded-md transition-all duration-300 hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -100,14 +100,111 @@ const MyInfo = () => {
             fill="white"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263"
             ></path>
           </svg>
         </a>
       </div>
-    </div>
+      {/* Extra Info */}
+      <div className="flex flex-col justify-start items-start w-[87%] mt-5 gap-[20px] bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md p-[20px]">
+        {/* Phone */}
+        <div className="w-full flex justify-start items-center gap-[10px] phone">
+          <div className="flex justify-center items-center gap-[10px] bg-[#053a00ff] p-3 rounded-md phoneDiv">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="#00ff5e"
+            >
+              <path d="M16.75 2h-10c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-10 18V4h10l.002 16H6.75z"></path>
+              <circle cx="11.75" cy="18" r="1"></circle>
+            </svg>
+          </div>
+          <div className="flex justify-center items-start flex-col gap-[2px] phoneInfo">
+            <h6 className="poppins text-[13px] text-[#00ff5e]">Phone:</h6>
+            <a
+              href="tel:+923192924947"
+              className="text-[#00ff5e] poppins-semibold text-[14px]"
+            >
+              +92-319-292-4947
+            </a>
+          </div>
+        </div>
+        <hr className="w-full h-[1px] text-[#00ff5e]" />
+        {/* E-mail */}
+        <div className="w-full flex justify-start items-center gap-[10px] email">
+          <div className="flex justify-center items-center gap-[10px] bg-[#053a00ff] p-3 rounded-md emailDiv">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="#00ff5e"
+            >
+              <path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path>
+            </svg>
+          </div>
+          <div className="flex justify-center items-start flex-col gap-[2px] emailInfo">
+            <h6 className="poppins text-[13px] text-[#00ff5e]">E-mail:</h6>
+            <a
+              href="mailto:Taha82426980@gmail.com"
+              className="text-[#00ff5e] poppins-semibold text-[14px]"
+            >
+              Taha82426980@gmail.com
+            </a>
+          </div>
+        </div>
+        <hr className="w-full h-[1px] text-[#00ff5e]" />
+        {/* Location */}
+        <div className="w-full flex justify-start items-center gap-[10px] location">
+          <div className="flex justify-center items-center gap-[10px] bg-[#053a00ff] p-3 rounded-md locationDiv">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="#00ff5e"
+            >
+              <path d="M12 14c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2z"></path>
+              <path d="M11.42 21.814a.998.998 0 0 0 1.16 0C12.884 21.599 20.029 16.44 20 10c0-4.411-3.589-8-8-8S4 5.589 4 9.995c-.029 6.445 7.116 11.604 7.42 11.819zM12 4c3.309 0 6 2.691 6 6.005.021 4.438-4.388 8.423-6 9.73-1.611-1.308-6.021-5.294-6-9.735 0-3.309 2.691-6 6-6z"></path>
+            </svg>
+          </div>
+          <div className="flex justify-center items-start flex-col gap-[2px] locationInfo">
+            <h6 className="poppins text-[13px] text-[#00ff5e]">Location:</h6>
+            <a
+              href="https://www.google.com/maps/place/Karachi/@25.0740005,66.9469006,12z/data=!4m5!3m4!1s0x0:0x0!8m2!3d25.0740005!4d66.9469006"
+              className="text-[#00ff5e] poppins-semibold text-[14px]"
+            >
+              Karachi, Pakistan
+            </a>
+          </div>
+        </div>
+        <hr className="w-full h-[1px] text-[#00ff5e]" />
+        {/* Birthday */}
+        <div className="w-full flex justify-start items-center gap-[10px] birthday">
+          <div className="flex justify-center items-center gap-[10px] bg-[#053a00ff] p-3 rounded-md birthdayDiv">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="#00ff5e"
+            >
+              <path d="M19 5h-6V2h-2v3H5C3.346 5 2 6.346 2 8v10c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V8c0-1.654-1.346-3-3-3zM5 7h14a1 1 0 0 1 1 1l.001 3.12c-.896.228-1.469.734-1.916 1.132-.507.45-.842.748-1.588.748-.745 0-1.08-.298-1.587-.747-.595-.529-1.409-1.253-2.915-1.253-1.505 0-2.319.724-2.914 1.253-.507.45-.841.747-1.586.747-.743 0-1.077-.297-1.582-.747-.447-.398-1.018-.905-1.913-1.133V8a1 1 0 0 1 1-1zM4 18v-4.714c.191.123.374.274.583.461C5.178 14.276 5.991 15 7.495 15c1.505 0 2.319-.724 2.914-1.253.507-.45.841-.747 1.586-.747s1.08.298 1.587.747c.595.529 1.409 1.253 2.915 1.253s2.321-.724 2.916-1.253c.211-.188.395-.34.588-.464L20.002 18H4z"></path>
+            </svg>
+          </div>
+          <div className="flex justify-center items-start flex-col gap-[2px] birthdayInfo">
+            <h6 className="poppins text-[13px] text-[#00ff5e]">Birthday:</h6>
+            <p className="text-[#00ff5e] poppins-semibold text-[14px]">
+              11th October
+            </p>
+          </div>
+        </div>
+      </div>
+    </aside>
   );
 };
 

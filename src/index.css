@@ -333,3 +333,207 @@ html {
   top: 60%;
   left: 200px;
 }
+
+/* Fancy Borders */
+
+/* Web Development */
+.webDev {
+  border-radius: 50% 50% 50% 50% / 20% 20% 80% 80%;
+  transition: all 0.3s ease;
+}
+
+#webDevCard {
+  transition: all 0.3s ease;
+}
+
+#webDevCard:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 3px rgba(0, 255, 94, 0.5);
+  .webDev {
+    border-radius: 50% 50% 50% 50% / 80% 80% 20% 20%;
+    background-color: #00ff5e;
+    svg {
+      fill: #053a00ff;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+/* Discord */
+
+.manageDiscord {
+  border-radius: 50% 50% 50% 50% / 80% 80% 20% 20%;
+  transition: all 0.3s ease;
+}
+
+#manageDiscordCard {
+  transition: all 0.3s ease;
+}
+
+#manageDiscordCard:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 3px rgba(0, 255, 94, 0.5);
+  .manageDiscord {
+    border-radius: 50% 50% 50% 50% / 20% 20% 80% 80%;
+    background-color: #00ff5e;
+    svg {
+      fill: #053a00ff;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+/* Image Editing */
+
+.imageEditing {
+  border-radius: 65% 35% 65% 35% / 35% 65% 35% 65%;
+  transition: all 0.3s ease;
+}
+
+#imageEditingCard {
+  transition: all 0.3s ease;
+}
+
+#imageEditingCard:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 3px rgba(0, 255, 94, 0.5);
+  .imageEditing {
+    border-radius: 34% 66% 35% 65% / 65% 36% 64% 35%;
+    background-color: #00ff5e;
+    svg {
+      fill: #053a00ff;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+/* Extra Info Styling */
+
+/* Phone */
+.phoneDiv {
+  transition: all 0.3s ease;
+  svg {
+    transition: all 0.3s ease;
+  }
+}
+
+.phone:hover {
+  .phoneDiv {
+    background: #00ff5e;
+    svg {
+      fill: #053a00ff;
+    }
+  }
+}
+
+.phoneInfo {
+  h6,
+  a {
+    transition: all 0.3s ease;
+  }
+}
+
+.phoneInfo:has(a:hover) h6 {
+  color: white;
+}
+
+.phoneInfo a:hover {
+  color: white;
+}
+
+/* Email */
+.emailDiv {
+  transition: all 0.3s ease;
+  svg {
+    transition: all 0.3s ease;
+  }
+}
+
+.email:hover {
+  .emailDiv {
+    background: #00ff5e;
+    svg {
+      fill: #053a00ff;
+    }
+  }
+}
+
+.emailInfo {
+  h6,
+  a {
+    transition: all 0.3s ease;
+  }
+}
+
+.emailInfo:has(a:hover) h6 {
+  color: white;
+}
+
+.emailInfo a:hover {
+  color: white;
+}
+
+/* Location */
+.locationDiv {
+  transition: all 0.3s ease;
+  svg {
+    transition: all 0.3s ease;
+  }
+}
+
+.location:hover {
+  .locationDiv {
+    background: #00ff5e;
+    svg {
+      fill: #053a00ff;
+    }
+  }
+}
+
+.locationInfo {
+  h6,
+  a {
+    transition: all 0.3s ease;
+  }
+}
+
+.locationInfo:has(a:hover) h6 {
+  color: white;
+}
+
+.locationInfo a:hover {
+  color: white;
+}
+
+/* Birthday */
+.birthdayDiv {
+  transition: all 0.3s ease;
+  svg {
+    transition: all 0.3s ease;
+  }
+}
+
+.birthday:hover {
+  .birthdayDiv {
+    background: #00ff5e;
+    svg {
+      fill: #053a00ff;
+    }
+  }
+}
+
+.birthdayInfo {
+  h6,
+  p {
+    transition: all 0.3s ease;
+  }
+}
+
+.birthdayInfo:has(p:hover) h6 {
+  color: white;
+}
+
+.birthdayInfo p:hover {
+  cursor: pointer;
+  color: white;
+}

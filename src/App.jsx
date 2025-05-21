@@ -9,14 +9,12 @@ const App = () => {
   return (
     <div className="w-full min-h-screen relative">
       <BackgroundVideo className="absolute top-0 left-0 w-full h-full" />
-      <Header /> {/* Header stays sticky */}
+      <Header />
       <Nav />
-      <div className="flex ml-[14%] min-h-screen justify-start items-start gap-[5%] border-1 border-red-500">
+      <main className="flex w-full h-full pl-[14%] justify-start items-start gap-[3%] mt-[5%]">
         <MyInfo />
-        {/* This is where the routed components will be displayed */}
-
         <Outlet />
-      </div>
+      </main>
       <Footer />
     </div>
   );
