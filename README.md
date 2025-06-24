@@ -1,12 +1,86 @@
-# React + Vite
+# 🌙 Taha's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub Repo Size](https://img.shields.io/github/repo-size/delepover56/portfolio)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/delepover56/portfolio)
+![GitHub Stars](https://img.shields.io/github/stars/delepover56/portfolio?style=social)
 
-Currently, two official plugins are available:
+A sleek, modern, and responsive developer portfolio built using **React** and **Tailwind CSS**. This portfolio showcases my skills, projects, and experience as a passionate front-end developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔮 Live Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 [View Live Website](#)
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ **React** – Component-based UI development
+- 🎨 **Tailwind CSS** – Utility-first styling framework
+- 🚀 **Vite** – Fast development and build tool
+- 🧩 **Framer Motion** – Smooth animations and transitions
+- 🌐 **React Router v7** – Seamless page navigation
+- 📁 **Custom Folder Structure** – Organized and scalable codebase
+
+---
+
+## 📸 Preview
+
+![Portfolio Screenshot](src/assets/Images/preview.png)
+
+
+> *Dark theme | Smooth animations | Custom layout*
+
+---
+
+## 📂 Folder Structure (simplified)
+
+```bash
+portfolio/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── tailwind.config.js
+└── index.html
+```
+
+---
+
+## 🧠 Features
+
+- Dark, modern theme with red moon and snowy forest aesthetic 🌲🌕
+- Fully responsive layout across all devices
+- Sticky sidebar navigation and top header
+- Custom animations with GSAP & Framer Motion
+- Dynamic project showcase section
+
+---
+
+## 🚧 To-Do / Coming Soon
+
+- [ ] Contact form integration
+- [ ] Blog section
+- [ ] Language toggle (EN/UR)
+
+---
+
+## 🧑‍💻 Author
+
+**Taha Khan**  
+📫 [Connect on LinkedIn](https://www.linkedin.com/in/taha-khan03/)  
+🐙 [@delepover56 on GitHub](https://github.com/delepover56)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License – feel free to use and modify it!
+
+---
+
+> If you like this portfolio, give it a ⭐ and fork it to make your own!
