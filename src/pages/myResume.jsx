@@ -152,16 +152,28 @@ const Resume = () => {
                   React.Js
                 </h6>
               </div>
-              {/* PHP */}
-              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[120px] h-[40px]">
-                <h6 className="text-[16px] text-[#00ff5e] Poppins-medium">
-                  PHP
-                </h6>
-              </div>
               {/* Tailwind */}
               <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[120px] h-[40px]">
                 <h6 className="text-[16px] text-[#00ff5e] Poppins-medium">
                   Tailwind
+                </h6>
+              </div>
+              {/* Discord.Js */}
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[120px] h-[40px]">
+                <h6 className="text-[16px] text-[#00ff5e] Poppins-medium">
+                  Discord.Js
+                </h6>
+              </div>
+              {/* WordPress */}
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[120px] h-[40px]">
+                <h6 className="text-[16px] text-[#00ff5e] Poppins-medium">
+                  WordPress
+                </h6>
+              </div>
+              {/* PHP */}
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[120px] h-[40px]">
+                <h6 className="text-[16px] text-[#00ff5e] Poppins-medium">
+                  PHP
                 </h6>
               </div>
             </div>
