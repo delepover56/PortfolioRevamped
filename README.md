@@ -35,16 +35,18 @@ A sleek, modern, and responsive developer portfolio built using **React** and **
 
 ## 📂 Folder Structure (simplified)
 
+```bash
 portfolio/
 ├── public/
 ├── src/
-│ ├── assets/
-│ ├── components/
-│ ├── pages/
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
 ├── tailwind.config.js
 └── index.html
+```
 
 ---
 
