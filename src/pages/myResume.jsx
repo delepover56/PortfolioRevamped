@@ -1,4 +1,8 @@
+import SkillCard from "../components/SkillCard";
+
 const Resume = () => {
+  // State to store the current counter value
+
   return (
     <section className="flex flex-col justify-start items-start gap-[30px] mb-10 mr-10">
       <div className="max-w-[700px] w-full h-auto text-white py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md flex justify-start items-start flex-col gap-6 ">
@@ -103,17 +107,11 @@ const Resume = () => {
                 Development Skills
               </h4>
             </div>
-            <div className="max-w-100 w-75 max-h-40 h-40 flex justify-center items-start gap-3 flex-col border border-[#00ff5e66] rounded-2xl bg-[#0f0f0fb7] p-5 mt-8 hover:transform hover:scale-102 transition-all duration-300 hover:shadow-[1px_2px_4px_0px_#00ff5e]">
-              <div className="flex justify-between items-center gap-2">
-                <h2 className="text-[#00ff5e] roboto-slab text-md">
-                  Front-End Development
-                </h2>
-                <p className="text-gray-300 poppins-medium text-sm">85%</p>
-              </div>
-            </div>
+            <SkillCard title="Front-End Development" percentage={85} />
+            <SkillCard title="Back-End Development" percentage={40} />
           </div>
           <div className="knowledge flex flex-col gap-4">
-            <div className="flex justify-start items-center gap-5">
+            <div className="flex justify-start items-center gap-5 mb-8">
               <span className="flex justify-center items-center bg-[#053a00ff] p-2 rounded-4xl shadow-[1px_2px_4px_0px_#00ff5e]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -128,6 +126,44 @@ const Resume = () => {
               <h4 className="text-xl text-[#00ff5e] roboto-slab hover:text-white transition-all duration-300 hover:cursor-default">
                 Knowledge
               </h4>
+            </div>
+            <div className="flex justify-start items-start gap-5 flex-wrap">
+              {/* HTML */}
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[120px] h-[40px]">
+                <h6 className="text-[16px] text-[#00ff5e] Poppins-medium">
+                  HTML
+                </h6>
+              </div>
+              {/* CSS */}
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[120px] h-[40px]">
+                <h6 className="text-[16px] text-[#00ff5e] Poppins-medium">
+                  CSS
+                </h6>
+              </div>
+              {/* JavaScript */}
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[120px] h-[40px]">
+                <h6 className="text-[16px] text-[#00ff5e] Poppins-medium">
+                  JavaScript
+                </h6>
+              </div>
+              {/* React */}
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[120px] h-[40px]">
+                <h6 className="text-[16px] text-[#00ff5e] Poppins-medium">
+                  React.Js
+                </h6>
+              </div>
+              {/* PHP */}
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[120px] h-[40px]">
+                <h6 className="text-[16px] text-[#00ff5e] Poppins-medium">
+                  PHP
+                </h6>
+              </div>
+              {/* Tailwind */}
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[120px] h-[40px]">
+                <h6 className="text-[16px] text-[#00ff5e] Poppins-medium">
+                  Tailwind
+                </h6>
+              </div>
             </div>
           </div>
         </div>
