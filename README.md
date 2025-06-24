@@ -27,7 +27,8 @@ A sleek, modern, and responsive developer portfolio built using **React** and **
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./src/assets/Images/preview.png)
+![Portfolio Screenshot](src/assets/Images/preview.png)
+
 
 > *Dark theme | Smooth animations | Custom layout*
 
