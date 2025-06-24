@@ -11,9 +11,13 @@ const App = () => {
       <BackgroundVideo className="absolute top-0 left-0 w-full h-full" />
       <Header />
       <Nav />
-      <main className="flex w-full h-full pl-[14%] justify-start items-start gap-[3%] mt-[5%]">
-        <MyInfo />
-        <Outlet />
+      <main className="flex w-full min-h-[calc(100vh-200px)] pl-[14%] justify-start items-start gap-[3%] mt-[5%]">
+        <div className="sticky top-[100px] self-start w-100 min-w-100 h-[max-content]">
+          <MyInfo />
+        </div>
+        <div className="flex-1">
+          <Outlet />
+        </div>
       </main>
       <Footer />
     </div>

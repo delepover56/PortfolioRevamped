@@ -331,7 +331,7 @@ html {
   );
   bottom: 40%;
   top: 60%;
-  left: 200px;
+  left: 250px;
 }
 
 /* Fancy Borders */
@@ -372,7 +372,7 @@ html {
 
 #manageDiscordCard:hover {
   transform: scale(1.01);
-  box-shadow: 5px 5px 3px rgba(0, 255, 94, 0.5);
+  box-shadow: 5px 5px 3px #00ff5e80;
   .manageDiscord {
     border-radius: 50% 50% 50% 50% / 20% 20% 80% 80%;
     background-color: #00ff5e;
