@@ -10,7 +10,7 @@ A sleek, modern, and responsive developer portfolio built using **React** and **
 
 ## 🔮 Live Preview
 
-🌐 [View Live Website](https://your-portfolio-link.vercel.app)
+🌐 [View Live Website](#)
 
 ---
 
@@ -27,7 +27,7 @@ A sleek, modern, and responsive developer portfolio built using **React** and **
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./Assets/preview.png)
+![Portfolio Screenshot](./src/assets/Images/preview.png)
 
 > *Dark theme | Smooth animations | Custom layout*
 
@@ -71,7 +71,7 @@ portfolio/
 ## 🧑‍💻 Author
 
 **Taha Khan**  
-📫 [Connect on LinkedIn](https://linkedin.com/in/your-profile)  
+📫 [Connect on LinkedIn](https://www.linkedin.com/in/taha-khan03/)  
 🐙 [@delepover56 on GitHub](https://github.com/delepover56)
 
 ---
