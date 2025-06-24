@@ -17,7 +17,7 @@ const MyInfo = () => {
         <div className="socialLinks flex gap-4 mt-4">
           {/* Instagram */}
           <a
-            href="https://www.instagram.com/johan.liebert.53/"
+            href="https://www.instagram.com/d.a.r.t.h_r.e.v.a.n/"
             target="_blank"
             rel="noopener noreferrer"
             className="instagram flex justify-center items-center bg-gradient-to-br from-pink-800 via-pink-500 to-purple-400 w-[35px] h-[35px] rounded-md transition-all duration-[0.3s] hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
