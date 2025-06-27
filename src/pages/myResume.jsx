@@ -41,7 +41,7 @@ const Resume = () => {
             </div>
             <div className="max-w-100 w-70 max-h-40 h-40 flex justify-center items-start gap-3 flex-col border border-[#00ff5e66] rounded-2xl bg-[#0f0f0fb7] p-5 hover:transform hover:scale-102 transition-all duration-300 hover:shadow-[1px_2px_4px_0px_#00ff5e]">
               <p className="text-gray-300 poppins-medium text-sm">
-                2024 – Present
+                2025 – Present
               </p>
               <h2 className="text-[#00ff5e] roboto-slab text-md">
                 Intermediate
