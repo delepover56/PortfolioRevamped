@@ -1,0 +1,96 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+
+// Images
+import chicLighting from "../assets/Images/Projects/ChicLighting.webp";
+import championGarage from "../assets/Images/Projects/ChampionGarageDoors.png";
+import northAmerican from "../assets/Images/Projects/NorthAmericanElevator.png";
+import spamX from "../assets/Images/Projects/SpamX.png";
+import puriGroup from "../assets/Images/Projects/PuriGroup.png";
+
+const projects = [
+  {
+    name: "Chic Lighting",
+    link: "https://chiclightingproject1.vercel.app/",
+    image: chicLighting,
+    alt: "Website screenshot of Chic Lighting project",
+  },
+  {
+    name: "Champion Garage Doors",
+    link: "https://tsd-demo.com/dormatic/",
+    image: championGarage,
+    alt: "Website screenshot of Champion Garage Doors project",
+  },
+  {
+    name: "North American Elevator",
+    link: "https://tsd-demo.com/elevator/",
+    image: northAmerican,
+    alt: "Website screenshot of North American Elevator project",
+  },
+  {
+    name: "SpamX",
+    link: "https://spamx.co/",
+    image: spamX,
+    alt: "Website screenshot of SpamX project",
+  },
+  {
+    name: "Puri Group",
+    link: "https://valscode.com/puri-group/",
+    image: puriGroup,
+    alt: "Website screenshot of Puri Group project",
+  },
+];
+
+const Slider = () => {
+  return (
+    <Swiper
+      spaceBetween={20}
+      slidesPerView={1.2}
+      grabCursor={true}
+      modules={[Autoplay]}
+      autoplay={{
+        delay: 3500,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      }}
+      speed={800}
+      breakpoints={{
+        768: { slidesPerView: 1.2 },
+        1024: { slidesPerView: 2.2 },
+      }}
+      className="select-none"
+    >
+      {projects.map((project, index) => (
+        <SwiperSlide key={index}>
+          <div className="p-[15px] flex justify-between items-start flex-col rounded-2xl bg-white gap-3 shadow-md hover:shadow-xl transition-shadow duration-300">
+            <a
+              href={project.link}
+              target="_blank"
+              className="w-full h-full overflow-hidden rounded-2xl"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={project.image}
+                alt={project.alt}
+                loading="lazy"
+                className="w-full h-full object-cover rounded-xl hover:scale-[1.1] transition-all duration-300"
+                draggable={false}
+              />
+            </a>
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black font-semibold hover:text-[#00ff5e] transition-all duration-300 poppins-semibold text-lg"
+            >
+              {project.name}
+            </a>
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  );
+};
+
+export default Slider;

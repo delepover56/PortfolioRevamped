@@ -5,7 +5,7 @@ import { Rocket } from "../assets/icons/Rocket";
 import { FileStack } from "../assets/icons/FileStack";
 
 const Nav = () => (
-  <nav className="w-[max-content] h-full left-[1%] fixed flex items-center justify-center top-[10]">
+  <nav className="w-[max-content] h-full left-[1%] fixed flex items-center justify-center top-[10] select-none">
     <ul className="flex flex-col justify-center items-center gap-4 mb-[150px]">
       <li className="relative flex items-center justify-center bg-gradient-to-br from-[#009b39] to-[#0d4221] rounded-md backdrop-filter backdrop-blur-md group h-[50px] w-[50px] transition-all duration-[0.3s] hover:scale-[1.07] active:duration-[0.2s] hover:shadow-[2px_2px_5px_0px_#00ff5e] active:scale-[0.95]">
         <Link to="/aboutMe">

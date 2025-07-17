@@ -4,10 +4,12 @@ import Header from "./components/header";
 import MyInfo from "./components/myInfo";
 import Footer from "./components/footer";
 import { Outlet } from "react-router-dom";
+import ScrollToTop from "./components/scrollToTop";
 
 const App = () => {
   return (
-    <div className="w-full min-h-screen relative">
+    <div className="w-full min-h-screen relative select-none">
+      <ScrollToTop />
       <BackgroundVideo className="absolute top-0 left-0 w-full h-full" />
       <Header />
       <Nav />

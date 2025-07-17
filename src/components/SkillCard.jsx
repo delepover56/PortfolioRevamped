@@ -35,7 +35,7 @@ const SkillCard = ({ title, percentage }) => {
   }, [count, percentage]);
 
   return (
-    <div className="group max-w-100 w-75 max-h-40 h-40 flex justify-around items-start gap-3 flex-col border border-[#00ff5e99] rounded-2xl bg-[#0f0f0fb7] p-5 mt-8 hover:transform hover:scale-102 transition-all duration-300 shadow-[0_0_10px_#00ff5e55] hover:shadow-[1px_2px_4px_0px_#00ff5e]">
+    <div className="group max-w-100 w-75 max-h-40 h-40 flex justify-around items-start gap-3 flex-col border border-[#00ff5e99] rounded-2xl bg-[#0f0f0fb7] p-5 mt-8 hover:transform hover:scale-102 transition-all duration-300 shadow-[0_0_10px_#00ff5e55] hover:shadow-[1px_2px_4px_0px_#00ff5e] select-none">
       <div ref={cardRef} className="flex justify-between items-center gap-2">
         <h2
           className="text-[#00ff5e] roboto-slab text-md relative pointer-default

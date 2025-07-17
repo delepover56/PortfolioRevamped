@@ -1,11 +1,12 @@
-// import { StrictMode } from "react";
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
+import router from "./router";
 import "./index.css";
-import router from "./router"; // Import the router
 
+// Wrap the ScrollToTop inside the router
 createRoot(document.getElementById("root")).render(
-  // <StrictMode>
-  <RouterProvider router={router} />
-  // </StrictMode>
+  <StrictMode>
+    <RouterProvider router={router} />
+  </StrictMode>
 );

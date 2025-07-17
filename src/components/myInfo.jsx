@@ -1,6 +1,6 @@
 const MyInfo = () => {
   return (
-    <aside className="sticky top-[5%] h-[max-content]">
+    <aside className="sticky top-[5%] h-[max-content] select-none">
       <div className="w-[100%] py-[10%] gap-[10px] flex flex-col items-center justify-start bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
         <img
           src="/src/assets/Images/MyAvatar-With-Background-NewGlasses.webp"
@@ -8,6 +8,7 @@ const MyInfo = () => {
           height={"100%"}
           width={"60%"}
           className="mb-[20px] rounded-lg"
+          draggable={false}
         />
         <h3 className="merienda text-[2.5vw] text-white">Taha Khan</h3>
         <h6 className="poppins tracking-widest bg-[#009b395e] px-[14px] py-[8px] rounded-sm text-white text-[14px]">

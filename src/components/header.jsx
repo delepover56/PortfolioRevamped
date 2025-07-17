@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Header = () => (
-  <header className="flex items-center justify-center w-full py-[20px] sticky top-[0]">
+  <header className="flex items-center justify-center w-full py-[20px] sticky top-[0] select-none">
     <Link
       to="/"
       className="flex justify-center items-center gap-[10px] text-[3.5vw] font-extrabold text-[#009b39] group"
