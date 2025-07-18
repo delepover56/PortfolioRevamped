@@ -37,7 +37,7 @@ const MyWork = () => {
           creativity, and passion for front-end web development.
         </p>
       </div>
-      <div className="max-w-[700px] w-full h-auto text-white py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md flex justify-start items-start flex-col gap-6">
+      <div className="max-w-[700px] w-full h-auto text-white pt-18 pb-3 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md flex justify-start items-start flex-col gap-6">
         <div className="flex justify-start items-start gap-5 w-full flex-col">
           <div className="w-full flex justify-center items-center text-center">
             <h1 className="merienda text-4xl text-[#00ff5e] mb-5 ">
