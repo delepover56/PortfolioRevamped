@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section className="flex flex-col justify-start items-start gap-[30px] mb-10 mr-10 select-none">
+    <section className="flex flex-col justify-start items-start w-[max-content] gap-[30px] mb-10 mr-10 select-none">
       <div className="max-w-[700px] w-full h-auto text-white py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
         <h1 className="merienda text-4xl text-[#00ff5e] mb-5 afterLine w-[max-content]">
           Get To Know Me!

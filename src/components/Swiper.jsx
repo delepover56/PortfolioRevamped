@@ -14,11 +14,11 @@ const Slider = () => {
       modules={[Autoplay, Pagination]}
       pagination={true}
       loop={true}
-      autoplay={{
-        delay: 3500,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: true,
-      }}
+      // autoplay={{
+      //   delay: 3500,
+      //   disableOnInteraction: false,
+      //   pauseOnMouseEnter: true,
+      // }}
       speed={800}
       breakpoints={{
         768: { slidesPerView: 1.2 },
@@ -35,6 +35,9 @@ const Slider = () => {
               className="w-full h-full overflow-hidden rounded-2xl"
               rel="noopener noreferrer"
             >
+              <div className="hidden">
+                https://accounts.google.com/o/oauth2/v2/auth?prompt=select_account&state=E05BU60OCyXfNeLiAWYTti8AvMUizMQ5&redirect_uri=https%3A%2F%2Fsdk-os.mpsdk.easebar.com%2Fapi%2Fusers%2Flogin%2Fv2%2Fgoogle%2Fcallback&response_type=code&client_id=529895160150-2tlh8ntrjne89ecl4aqt2mbgkpfal7sg.apps.googleusercontent.com&scope=profile
+              </div>
               <img
                 src={project.image}
                 alt={project.alt}
