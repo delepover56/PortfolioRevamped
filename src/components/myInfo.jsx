@@ -1,6 +1,6 @@
 const MyInfo = () => {
   return (
-    <aside className="sticky top-[5%] w-[380px] h-[max-content] select-none self-start">
+    <aside className="sticky top-[60px] w-[380px] h-[max-content] select-none self-start">
       <div className="w-[100%] py-[10%] gap-[10px] flex flex-col items-center justify-start bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
         <img
           src="/src/assets/Images/MyAvatar-With-Background-NewGlasses.webp"
